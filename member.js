@@ -1,6 +1,8 @@
-function skillMember() {
-    this.skill = "JavaScript";
-    this.showSkill = function() {
-        console.log(this.skill);
+function skillsMember() {
+    return {
+        // Path: member.js
+        getSkills: function() {
+            return ['JavaScript', 'Java', 'Node.js', '.NET', 'Python'];
+        }
     }
 }
